@@ -1,0 +1,465 @@
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.home-head {
+  padding: 150px 0px 150px 0px;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-top {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+  width: 100%;
+  background: #263238;
+}
+
+.ban-tit {
+  text-align: center;
+  width: 100%;
+}
+
+.ban-tit h1 b {
+  display: block;
+  font-weight: 600;
+  font-size: 50px;
+  color: #fff;
+}
+.ban-tit h1 {
+  font-size: 30px;
+  font-weight: 250;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.ban-search {
+  margin: 0 auto;
+  background: #00000040;
+}
+
+/*kategori */
+.home-tit {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.land-pack ul {
+  position: relative;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+.land-pack ul li {
+  list-style-type: none;
+  float: left;
+  width: 25%;
+  /* display:inline-block;
+     */
+  padding: 0px 10px;
+}
+
+.land-pack-grid {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 180px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fff;
+  background-clip: border-box;
+  box-shadow: 0 2px 4px rgba(37, 39, 42, 0.15);
+  margin: 0px 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.land-pack {
+  margin-bottom: 20px;
+}
+
+.land-pack-grid:hover .land-pack-grid-btn {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #3330;
+}
+
+.land-pack-grid-img img {
+  width: 100%;
+  transition: all 0.5s ease;
+  height: 180px;
+  object-fit: cover;
+}
+
+.land-pack-grid:hover .land-pack-grid-img img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.land-pack-grid-text {
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(to top, #000000c7, #00000008);
+}
+
+.land-pack-grid-text h4 {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.land-pack-grid-btn {
+  color: #3330;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+}
+
+.land-pack .more {
+  color: #ffffff;
+  padding: 10px 40px;
+  border-radius: 2px;
+  font-size: 16px;
+  display: table;
+  margin: 0 auto;
+  /* border: 1px solid #3675b6; */
+  background: #303f9f;
+}
+
+/* footer */
+.wed-hom-footer {
+  /* margin-top: 60px;
+   */
+  padding: 65px 0px 65px 0px;
+  background: #f7fcff;
+  background: linear-gradient(to bottom, #263238, #37474f 70%);
+  float: left;
+  width: 100%;
+  color: #ebeef1;
+}
+
+.wed-foot-link ul li {
+  width: 50%;
+  float: left;
+  margin-bottom: 8px;
+}
+.wed-foot-link ul li a {
+  color: #ebeef1;
+  font-size: 13px;
+}
+
+/* --- */
+.all-list-bre {
+  margin-top: 52px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/listing-bg.jpg);
+  /* background: url("../images/all-list-bg.jpg") no-repeat #5085f7; */
+  padding: 35px 0px 140px 0px;
+  position: relative;
+  background-size: cover;
+}
+
+.all-list-bre h1,
+.all-list-bre h2 {
+  font-weight: 600;
+  margin: 0px;
+  font-size: 32px;
+  line-height: 34px;
+  width: 100%;
+  color: #fff;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+/* ******************** LISTING  ******************** 
+
+
+
+*/
+
+.eve-box {
+  background: #fff;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #efefef;
+  box-shadow: 0px 0px 9px -7px rgba(150, 150, 150, 0.78);
+}
+
+.eve-box div {
+  position: relative;
+  overflow: hidden;
+}
+
+.eve-box div:nth-child(2) {
+  padding: 25px;
+}
+
+/*-------------------------------------------------*/
+/* ALL LISTING
+/*-------------------------------------------------*/
+
+.all-listing {
+  background: #f5f5f5;
+  margin-top: -100px;
+}
+
+.all-listing .row {
+  box-shadow: 0px 0px 25px 0px rgba(42, 42, 42, 0.13);
+}
+.all-listing .col-md-3 {
+  padding: 40px 0px 30px 15px;
+  background: #f5f5f5;
+  border-radius: 5px 0 0 0;
+}
+.all-listing .col-md-9 {
+  background: #fafafa;
+  border-radius: 0 5px 0 0;
+}
+.all-filt {
+  background: #f5f5f5;
+  padding-right: 15px;
+}
+.all-list-lapak {
+  background: #fafafa;
+  padding: 20px 0px 40px 0px;
+}
+.all-list-lapak > .all-list-lapak {
+  padding: 0px 0px 0px 0px;
+}
+.all-list-lapak ul li {
+  /* margin-bottom: 15px; */
+  padding: 0px 10px 20px 10px;
+}
+.all-list-lapak ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.filt-com {
+  float: left;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.filt-com .dropdown-menu {
+  min-height: 200px;
+  max-height: 400px;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 254px;
+}
+
+.lhs-cate h4:before {
+  /* content: "apps"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00a";
+  margin-right: 10px;
+}
+.lhs-featu h4:before {
+  /* content: "verified_user"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f058";
+  margin-right: 10px;
+}
+.lhs-sub h4:before {
+  /* content: "verified_user"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f058";
+  margin-right: 10px;
+}
+
+/*-------------------------------------------------*/
+/* ALL LISTING - LISTING
+/*-------------------------------------------------*/
+.all-list-lapak .eve-box {
+  margin: 10px 15px;
+}
+.all-list-lapak .al-img img {
+  height: 206px;
+}
+.all-list-lapak .al-img .auth img {
+  height: 36px;
+}
+
+.all-list-lapak .al-img .auth h4 {
+  margin: 0px;
+  font-size: 14px; /* float: left; */
+  line-height: 15px;
+  text-overflow: ellipsis;
+  white-space: pre;
+  overflow: hidden;
+  margin-top: -7px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 0px;
+  display: none;
+}
+.all-list-lapak .al-img .auth a {
+  position: absolute;
+  cursor: pointer;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 5;
+}
+.all-list-lapak .eve-box div:nth-child(2) span {
+  float: left;
+  font-size: 14px;
+  color: #333;
+}
+.all-list-lapak .eve-box div:nth-child(2) span:nth-child(1) {
+  float: initial;
+  font-size: 13px;
+}
+
+.all-list-lapak .eve-box div:nth-child(2) span.mail {
+  padding-bottom: 0px;
+}
+.eve-box div:nth-child(2) span.addr {
+  width: 100%;
+}
+.eve-box div:nth-child(2) span.pho {
+  width: 40%;
+}
+.eve-box div:nth-child(2) span.mail {
+  width: 60%;
+}
+.all-list-lapak .eve-box div:nth-child(2) .auth {
+  width: 25%;
+  float: left;
+  padding-left: 0px;
+}
+.all-list-lapak .eve-box div:nth-child(2) .auth h4 {
+  padding: 0px;
+  font-size: 13px;
+}
+.all-list-lapak .eve-box div:nth-child(2) .links {
+  width: 100%;
+  float: left;
+  padding: 0px;
+  border: 0px;
+  padding-top: 18px;
+}
+.all-list-lapak .eve-box div:nth-child(2) .links a,
+.all-list-lapak .eve-box div:nth-child(2) .links span {
+  float: left;
+  font-size: 12px;
+  margin: 0px 3px;
+  font-weight: 600;
+  border: 1px solid #6a6a6a;
+  color: #333;
+  padding: 4px 12px;
+  width: auto;
+  cursor: pointer;
+}
+.all-list-lapak .eve-box div:nth-child(2) .links a:first-child {
+  background: #607d8b;
+  color: #fff;
+  border: 1px solid #607d8b;
+}
+.all-list-lapak .eve-box:hover div:nth-child(2) .links a:first-child {
+  background: #4caf50;
+  color: #000;
+  border: 1px solid #4caf50;
+}
+
+.all-list-lapak .rat i {
+  color: #ff9800;
+  font-size: 18px;
+  width: 15px;
+}
+.all-list-lapak .eve-box div:nth-child(2) h4 {
+  padding-bottom: 14px;
+  margin: 0px;
+  line-height: 0px;
+  overflow: hidden;
+  white-space: pre;
+}
+.all-list-lapak .eve-box div:nth-child(2) h4 a {
+  color: #212529;
+  float: left;
+  line-height: 18px;
+}
+
+/* icon */
+
+.eve-box div:nth-child(2) span.pho:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f87b";
+  margin-right: 10px;
+}
+
+.all-list-lapak .eve-box div:nth-child(2) span.mail:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  margin-right: 10px;
+}
+
+.eve-box div:nth-child(2) span.addr:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f3c5";
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .land-pack ul li {
+    width: 50%;
+  }
+
+  .land-pack-grid {
+    width: 90%;
+    margin: 0px 5% 20px 5%;
+    box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.14);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .land-pack ul li {
+    width: 100%;
+  }
+}
